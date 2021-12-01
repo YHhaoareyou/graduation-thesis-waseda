@@ -1,0 +1,97 @@
+\documentclass[a4paper, 12pt, oneside]{book}
+
+%% packages
+\usepackage[backend=biber,style=ieee]{biblatex}
+\usepackage{graphicx} % for including images
+\usepackage{hyperref} % for clickable embeded links (including in-doc refs)
+\usepackage{minted} % for code highlighting
+\usepackage{nameref} % for in-doc references | \labal{} |  \ref{}  \nameref{}
+\usepackage{booktabs} % for midule
+\usepackage{siunitx} % for midrule
+\usepackage{amsmath,amssymb} % for expectation sign
+\DeclareMathOperator{\E}{\mathbb{E}}
+\usepackage[vlined, ruled]{algorithm2e}
+
+%% chapter starting from 0
+\setcounter{chapter}{-1}
+
+%% bibliography
+\addbibresource{src/bibliography.bib}
+
+\begin{document}
+
+%% use roman page numbering for abstract and acknowledgements
+\pagenumbering{roman}
+
+%% title page
+\begin{titlepage}
+\begin{center}
+    \vspace{0.1\textheight}
+    {\Large Undergraduate Thesis 2021} \\
+    \vspace{0.05\textheight}
+    \includegraphics[width=48truemm]{resources/0_title/waseda_logo.png} \\
+    \vspace{0.05\textheight}
+    \textbf{\huge Title} \\
+    \vfill
+    {\Large Supervisor \hspace{0.02\textwidth} Nakajima Tatsuo} \\
+    {\Large Area of Study \hspace{0.02\textwidth} Computer Science} \\
+    \vspace{0.05\textheight}
+    {\Large 
+        Waseda University \\
+        School of Fundamental Science and Engineering \\
+        Department of Computer Science \\}
+    \vspace{0.05\textheight}
+    {\Large 1W17BG08-2 Hu Yong-Hao \\}
+    \vspace{0.05\textheight}
+    {submitted on 2022.01.31}
+\end{center}
+\end{titlepage}
+
+%% abstract
+\pagebreak
+\hspace{0pt}
+\vfill % magic commands to vertically center the content
+    \begin{center}
+    Abstract
+    \end{center}
+This is my abstract...
+\vfill
+\pagebreak
+
+%% acknowledgement
+\pagebreak
+\hspace{0pt}
+\vfill 
+    \begin{center}
+    Acknowledgements
+    \end{center}
+This is my acknowledgements...
+
+\vfill
+\pagebreak
+
+%% use normal page numbering for the main body
+\pagenumbering{arabic}
+
+%% table of contents 
+\tableofcontents
+\listoffigures 
+\listoftables
+
+%% main body
+\clearpage
+\input{src/1_introduction}
+\input{src/2_preliminaries}
+\input{src/3_relatedworks}
+\input{src/4_methodology}
+\input{src/5_experiments_and_results}
+\input{src/6_discussions}
+
+%% bib
+\printbibliography
+
+%% appendix
+\input{src/7_appendix}
+
+\end{document}
+
