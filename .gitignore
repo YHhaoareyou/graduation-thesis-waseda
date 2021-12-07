@@ -277,3 +277,6 @@ TSWLatexianTemp*
 
 # Built files (with errors)
 .intermediates/
+
+# .DS_Store
+.DS_Store
