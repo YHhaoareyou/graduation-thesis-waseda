@@ -52,29 +52,39 @@ we restricted the places where graffiti are visible to several specific location
 In Figure 4.4, the prototype displays pins on the specific locations. The device's GPS information is retrieved to confirm where the user is.
 When a user gets close enough to one of the pinned locations, the corresponding pin turns yellow to indicate that the graffiti there is available to access.
 In Figure 4.5, when a pin is touched, a picture of the location is displayed so that the user can confirm the exact location and face to the correct orientation.
-After confirming the location, the app switches to AR mode by turning on the camera, and graffiti are displayed with the real landscape as a background, as shown in Figure 4.6.
-The menu on the bottom displays a graffiti's title, description, 'Like' button, button to check the same user's all creation, and a 'New!' button to open a painting canvas.
-There are also buttons on the left and right to switch between different graffiti.
 
 \begin{figure}
-  \begin{minipage}{0.32\textwidth}
+  \begin{minipage}{0.48\textwidth}
     \centering
     \includegraphics[width=0.9\linewidth]{resources/4_methodology/prototype_home.png}
       \caption{Prototype screenshot: Home page}
   \end{minipage}\hfill
-  \begin{minipage}{0.32\textwidth}
+  \begin{minipage}{0.48\textwidth}
     \centering
     \includegraphics[width=0.9\linewidth]{resources/4_methodology/prototype_loc_pic.png}
       \caption{Prototype screenshot: Picture for confirming the location}
-  \end{minipage}\hfill
-  \begin{minipage}{0.32\textwidth}
-    \centering
-    \includegraphics[width=0.9\linewidth]{resources/4_methodology/prototype_graffiti.png}
-      \caption{Prototype screenshot: Graffiti displayed in AR mode}
   \end{minipage}
 \end{figure}
 
-With the features of A-Frame, each graffiti is located on its specific angle, recorded during creation, to fit the background landscape, as demonstrated in Figure 4.7.
+After confirming the location, the app switches to AR mode by turning on the camera, and graffiti are displayed with the real landscape as a background, as shown in Figure 4.6.
+The menu on the bottom displays a graffiti's title, description, 'Like' button, button to check the same user's all creation, and a 'New!' button to open a painting canvas.
+There are also buttons on the left and right to switch between different graffiti.
+For graffiti painted based on other ones, as shown in Figure 4.7, there is a 'Based works' button to display the previous graffiti which this one is based on.
+
+\begin{figure}
+  \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=0.9\linewidth]{resources/4_methodology/prototype_graffiti.png}
+      \caption{Prototype screenshot: Graffiti displayed in AR mode}
+  \end{minipage}\hfill
+  \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=0.9\linewidth]{resources/4_methodology/prototype_based_graffiti.png}
+      \caption{Prototype screenshot: A graffiti painted based on other ones}
+  \end{minipage}
+\end{figure}
+
+With the features of A-Frame, each graffiti is located on its specific angle, recorded during creation, to fit the background landscape, as demonstrated in Figure 4.8.
 
 \begin{figure}
   \centering
@@ -82,25 +92,20 @@ With the features of A-Frame, each graffiti is located on its specific angle, re
     \caption{Prototype screenshot: Graffiti displayment in different angles to fit itself to the landscape}
 \end{figure}
 
-On clicking the 'New!' button, as shown in Figure 4.8, the user can choose between creating a new graffiti and painting on another user's graffiti, and then a canvas is expanded with basic painting tools equipped, as shown in Figure 4.9.
-For graffiti painted based on other ones, as shown in Figure 4.10, there is a 'Based works' button to display the previous graffiti which this one is based on.
+On clicking the 'New!' button, as shown in Figure 4.9, the user can choose between creating a new graffiti and painting on another user's graffiti,
+and then a canvas is expanded with basic painting tools equipped, as shown in Figure 4.9.
 Last but not least, whenever a graffiti is 'liked' or someone painted another graffiti based on this one, the author receives notifications in the app.
 
 \begin{figure}
-  \begin{minipage}{0.32\textwidth}
+  \begin{minipage}{0.48\textwidth}
     \centering
     \includegraphics[width=0.9\linewidth]{resources/4_methodology/prototype_choose_graffiti_type.png}
       \caption{Prototype screenshot: Menu for choosing the type of graffiti painting}
   \end{minipage}\hfill
-  \begin{minipage}{0.32\textwidth}
+  \begin{minipage}{0.48\textwidth}
     \centering
     \includegraphics[width=0.9\linewidth]{resources/4_methodology/prototype_canvas.png}
       \caption{Prototype screenshot: Canvas and tools for graffiti painting}
-  \end{minipage}\hfill
-  \begin{minipage}{0.32\textwidth}
-    \centering
-    \includegraphics[width=0.9\linewidth]{resources/4_methodology/prototype_based_graffiti.png}
-      \caption{Prototype screenshot: A graffiti painted based on other ones}
   \end{minipage}
 \end{figure}
 
