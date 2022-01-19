@@ -1,45 +1,231 @@
-\chapter*{APPENDIX A - Machine Specs} 
-\begin{table*} 
-\begin{center} 
-\caption{Machine specs}
-{\normalsize
-\begin{tabular}{l c}
-\toprule
-Item & Value \\
-\midrule
-    CPU & Intel Xeon E5-2690 \\ 
-    Memory & 188G \\
-    OS & 18.04.5 LTS (GNU/Linux 4.15.0-121-generic x86\_64) \\
-\bottomrule
+\chapter*{APPENDIX A - Questions adopted from SIMS}
+
+\begin{table}[h]
+\begin{center}
+\caption{Questions adopted from SIMS}\label{table:8}
+\begin{tabular}{C{2cm} | l | C{1.9cm}}
+    \hline
+    \rowcolor{lightgray}
+        \multicolumn{1}{C{2cm}}{Motivation \newline type} & \multicolumn{1}{c}{Questions} & \multicolumn{1}{C{1.9cm}}{Scale} \\
+    \hline
+    \multirow{4}{2cm}{Intrinsic motivation (IM)} & Because I think it is interesting. & \multirow{4}{1.9cm}{1 Disagree - 6 Agree} \\
+        & Because I think it is pleasant. & \\
+        & Because this is fun. & \\
+        & Because I feel good when experiencing it. & \\
+    \hline
+    \multirow{4}{2cm}{Amotivation (AM)} & Personally I don't see any good reason to do it. & \multirow{4}{1.9cm}{1 Disagree - 6 Agree} \\
+        & I'm not sure if it is worth it. & \\
+        & I don't see what it brings me. & \\
+        & I'm not sure it is a good thing to do. & \\
+    \hline
 \end{tabular}
-} \end{center} \end{table*}
+\end{center} 
+\end{table}
 
 
-\chapter*{APPENDIX B - Derivation of the simplest form of policy gradient}
-Derivation of the simplest form of policy gradient is provided below.
+\chapter*{APPENDIX B - Free responses of changes in image of the campus}
 
-\begin{equation*}
-    \begin{aligned}[b]
-        \nabla_\theta J(\pi_\theta) 
-        & = \nabla_\theta \E_{\tau \sim \pi} [R(\tau)] \\ 
-        & = \nabla_\theta \int_\tau P(\tau|\theta) R(\tau)\\
-        & =  \int_\tau \nabla_\theta P(\tau|\theta) R(\tau)\\
-        & =  \int_\tau P(\tau|\theta) \nabla_\theta log P(\tau|\theta)R(\tau)\\
-        & = \E_{\tau \sim \pi} [\nabla_\theta log P(\tau|\theta)R(\tau)] \\
-        & = \E_{\tau \sim \pi} [\nabla_\theta log \pi_\theta (a_t | s_t)R(\tau)] \\
-    \end{aligned}
-\end{equation*}
+\begin{table}[h]
+\begin{center}
+    \caption{Free responses of changes in image of the campus by viewing location-based AR contents}\label{table:9}
+    \begin{tabular}{L{\textwidth}}
+        \hline
+        \rowcolor{lightgray}
+          \multicolumn{1}{c}{Free responses} \\
+        \hline
+          {
+            \begin{itemize}
+              \item When I think other people draw at the place in campus, I want to check their artworks.
+              \item I started to see places which I don't normally see.
+              \item Many of the graffiti made things on campus look like something else, so the next time I saw it, I could think of the graffiti.
+              \item I hadn't had a chance to take a good look at the campus, so it was refreshing.
+              \item I couldn't draw pictures well, so I felt that there was a lack of reality (a sense of match with the real world).
+              \item I tended to feel like I'm the only one in the campus, but when I think that everyone came to the university and looked at this remote place through the app, it brings something to my heart. It makes me feel closer to them.
+              \item I used to feel that the campus was quiet and there was little interaction between people, but through this content, I learned that I could interact with strangers, and my image of the campus became more sociable.
+              \item The campus became a little more fun, but it wouldn't have changed my overall image.
+              \item To me it was just an application on phone where I can draw and see others' works
+            \end{itemize}
+          } \\
+        \hline
+    \end{tabular}
+\end{center} 
+\end{table}
 
-    This is a expectation, which can be estimated with a sample mean. Denote the estimated policy gradient as $\hat{g}$: 
-    $$   \hat{g} = \frac{1}{\mathit{D}} \sum_{\tau \in \mathit{D}} \sum_{t=0}^{T} \nabla_\theta log \pi_\theta (a_t | s_t)R(\tau)      $$
+\begin{table}[h]
+    \begin{center}
+      \caption{Free responses of changes in image of the campus by participation in co-creation}\label{table:10}
+      \begin{tabular}{L{\textwidth}}
+        \hline
+        \rowcolor{lightgray}
+          \multicolumn{1}{c}{Free responses} \\
+        \hline
+          {
+            \begin{itemize}
+              \item I began to look for a place where I could paint.
+              \item I started looking at places I don't normally look.
+              \item I started to think sometimes about what things on campus could look like.
+              \item It's like we're all looking at the same place.
+              \item I felt as if even the scenery I usually see is art from certain angles.
+              \item I used to have an image of the campus as "less social", but this content has changed my image to "more sociable".
+            \end{itemize}
+          } \\
+        \hline
+    \end{tabular}
+\end{center} 
+\end{table}
 
+\begin{table}[h]
+    \begin{center}
+      \caption{Free responses of changes in image of the campus by interaction between users}\label{table:11}
+      \begin{tabular}{L{\textwidth}}
+        \hline
+        \rowcolor{lightgray}
+          \multicolumn{1}{c}{Free responses} \\
+        \hline
+          {
+            \begin{itemize}
+              \item I went to more places when there were other users.
+              \item We started to talk about the building and other things.
+              \item I thought that since the interaction was with people, it had little impact on the image of the campus.
+              \item I developed a common feeling that we were all students at the same university.
+              \item There were pictures that made me wonder if that was the way to think.
+            \end{itemize}
+          } \\
+        \hline
+    \end{tabular}
+\end{center} 
+\end{table}
 
+\begin{table}[h]
+    \begin{center}
+      \caption{Free responses of changes in image of the campus by overall experience}\label{table:12}
+      \begin{tabular}{L{\textwidth}}
+        \hline
+        \rowcolor{lightgray}
+          \multicolumn{1}{c}{Free responses} \\
+        \hline
+          {
+            \begin{itemize}
+              \item Overall, I started to pay more attention to the campus.
+              \item I started to look at things on campus as different things, and remembered that other people had looked at things like this
+              \item The campus had a gloomy image, but it changed to a sociable one.
+            \end{itemize}
+          } \\
+        \hline
+    \end{tabular}
+\end{center} 
+\end{table}
 
+\chapter*{APPENDIX C - Free responses of preference between prototype at campus or situation at home}
 
+\begin{table}[h]
+  \begin{center}
+    \caption{Example responses of preference between prototype at campus or situation at home by viewing location-based AR contents}\label{table:13}
+    \begin{tabular}{C{2.5cm} | L{10cm}}
+      \hline
+      \rowcolor{lightgray}
+      \multicolumn{1}{C{2.5cm}}{Preference} & \multicolumn{1}{c}{Example responses} \\
+      \hline
+        At campus & {
+          \begin{itemize}
+            \item It's easier for your brain to connect the actual place with the place in the graffiti.
+            \item It gives a strong sense of actual experience and interaction.
+            \item ... sitting at home and watching graffiti with pictures of the campus in the background makes it obvious that you are outside of that world. I believe that the experience you get will be completely different.
+          \end{itemize}
+        } \\
+        \hline
+        At home & {
+          \begin{itemize}
+            \item I couldn't help but notice the eyes around me.
+            \item It's exhausting to travel around to check out the graffiti.
+            \item I am more an indoor type person
+          \end{itemize}
+        } \\
+      \hline
+  \end{tabular}
+\end{center} 
+\end{table}
 
+\begin{table}[h]
+  \begin{center}
+    \caption{Example responses of preference between prototype at campus or situation at home by participation in co-creation}\label{table:14}
+    \begin{tabular}{C{2.5cm} | L{10cm}}
+      \hline
+      \rowcolor{lightgray}
+      \multicolumn{1}{C{2.5cm}}{Preference} & \multicolumn{1}{c}{Example responses} \\
+      \hline
+        At campus & {
+          \begin{itemize}
+            \item It is more fun to draw on the spot.
+            \item In the case of drawing at home, I didn't have as much freedom to choose my point of view as I did on campus, so it would be more interesting to draw on campus to explore different perspectives.
+            \item I feel that it is important to draw while actually seeing buildings and other structures.
+          \end{itemize}
+        } \\
+        \hline
+        At home & {
+          \begin{itemize}
+            \item I can draw more calmly at home.
+            \item I can paint without worrying about passersby.
+          \end{itemize}
+        } \\
+      \hline
+  \end{tabular}
+\end{center} 
+\end{table}
 
+\begin{table}[h]
+  \begin{center}
+    \caption{Example responses of preference between prototype at campus or situation at home by interaction between users}\label{table:15}
+    \begin{tabular}{C{2.5cm} | L{10cm}}
+      \hline
+      \rowcolor{lightgray}
+      \multicolumn{1}{C{2.5cm}}{Preference} & \multicolumn{1}{c}{Example responses} \\
+      \hline
+        At campus & {
+          \begin{itemize}
+            \item I felt like we should be interacting in a real place.
+            \item I would still prefer the real world interaction with other users at campus since it's easier to understand people's feelings and have a conversation.
+            \item If you don't experience it at the place, you won't feel the realism and it won't be as interesting.
+          \end{itemize}
+        } \\
+        \hline
+        At home & {
+          \begin{itemize}
+            \item I thought that if the main purpose is to interact with people, there is no need to be on a campus.
+            \item I felt that if we were just going to doodle together, we could do it online, like an online drawing chat, because it's easy to do at the same time.
+          \end{itemize}
+        } \\
+      \hline
+  \end{tabular}
+\end{center} 
+\end{table}
 
-
+\begin{table}[h]
+  \begin{center}
+    \caption{Example responses of preference between prototype at campus or situation at home by overall experience}\label{table:16}
+    \begin{tabular}{C{2.5cm} | L{10cm}}
+      \hline
+      \rowcolor{lightgray}
+      \multicolumn{1}{C{2.5cm}}{Preference} & \multicolumn{1}{c}{Example responses} \\
+      \hline
+        At campus & {
+          \begin{itemize}
+            \item I could do it face-to-face with other users, and I could only encounter the artwork when I went there.
+            \item ... using at campus is more interesting because you can choose your point of view more freely.
+            \item If you don't experience it at the place, you won't get the sense of realism and it won't be as interesting. If you are there, you will be able to observe the actual situation more closely, which will give you more ideas for your doodles.
+          \end{itemize}
+        } \\
+        \hline
+        At home & {
+          \begin{itemize}
+            \item I can doodle without worrying about what others passed by.
+            \item It's hard to concentrate when using it outside by yourself due to various factors such as temperature and people passed by.
+          \end{itemize}
+        } \\
+      \hline
+  \end{tabular}
+\end{center} 
+\end{table}
 
 
 \addcontentsline{toc}{chapter}{APPENDIX A}  % unnumbered chapters are not added to TOC by default so adding it automatically
