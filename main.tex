@@ -19,8 +19,8 @@
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
-%% chapter starting from 0
-\setcounter{chapter}{-1}
+%% chapter starting from 1
+\setcounter{chapter}{0}
 
 %% bibliography
 \addbibresource{./src/bibliography.bib}
@@ -34,7 +34,7 @@
 \begin{titlepage}
 \begin{center}
     \vspace{0.1\textheight}
-    {\Large Undergraduate Thesis 2021} \\
+    {\Large Undergraduate Thesis 2022} \\
     \vspace{0.05\textheight}
     \includegraphics[width=48truemm]{resources/0_title/waseda_logo.png} \\
     \vspace{0.05\textheight}
@@ -61,21 +61,27 @@
     \begin{center}
     Abstract
     \end{center}
-This is my abstract...
+Pandemic and digitalization results in an increase of places or facilities becoming desolate or abandoned.
+Since both location-based AR and co-creation have been proved to have influence on users' motivation and the places they are implemented,
+for revitalization of places in general, we composed a framework consisting of location-based AR and co-creation together.
+We developed a prototype with components described in the framework, and then we conducted an experiment where participants used the prototype in Nishi-Waseda campus of Waseda University.
+Results showed positive influence of location-based AR and co-creation on participants' motivation to access the campus and images of the campus in their mind,
+which indicated the feasibility for our framework to revitalize the campus. We then discussed its generalization to other public facilities.
+Limitations in this study include restrictions in AR experience and ambiguous evaluation for certain items, and we also suggested future directions to improve the limitations as well as further evaluate the generalization of the proposed framework.
 \vfill
 \pagebreak
 
 %% acknowledgement
-\pagebreak
-\hspace{0pt}
-\vfill 
-    \begin{center}
-    Acknowledgements
-    \end{center}
-This is my acknowledgements...
+% \pagebreak
+% \hspace{0pt}
+% \vfill 
+%     \begin{center}
+%     Acknowledgements
+%     \end{center}
+% This is my acknowledgements...
 
-\vfill
-\pagebreak
+% \vfill
+% \pagebreak
 
 %% use normal page numbering for the main body
 \pagenumbering{arabic}
@@ -87,7 +93,7 @@ This is my acknowledgements...
 
 %% main body
 \clearpage
-\input{src/0_notation}
+% \input{src/0_notation}
 \input{src/1_introduction}
 \input{src/2_preliminaries}
 \input{src/3_relatedworks}
