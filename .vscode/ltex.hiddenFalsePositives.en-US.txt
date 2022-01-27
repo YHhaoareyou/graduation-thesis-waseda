@@ -1,0 +1,17 @@
+{"rule":"MORE_A_JJ","sentence":"^\\QI am more an indoor type person\\E$"}
+{"rule":"NOUN_AROUND_IT","sentence":"^\\QAt home I couldn't help but notice the eyes around me.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QI tended to feel like I'm the only one in the campus, but when I think that everyone came to the university and looked at this remote place through the app, it brings something to my heart.\\E$"}
+{"rule":"MISSING_COMMA_AFTER_INTRODUCTORY_PHRASE","sentence":"^\\QAt home I can draw more calmly at home.\\E$"}
+{"rule":"MISSING_COMMA_AFTER_INTRODUCTORY_PHRASE","sentence":"^\\QAt home I couldn't help but notice the eyes around me.\\E$"}
+{"rule":"MISSING_COMMA_AFTER_INTRODUCTORY_PHRASE","sentence":"^\\QAt home I thought that if the main purpose is to interact with people, there is no need to be on a campus.\\E$"}
+{"rule":"MISSING_COMMA_AFTER_INTRODUCTORY_PHRASE","sentence":"^\\QAt home I can doodle without worrying about what others passed by.\\E$"}
+{"rule":"NOW","sentence":"^\\QTherefore, we suppose our framework is also feasible for public facilities with: No high buildings surrounded due to GPS accuracy Indoor places are fine as long as the building is not tall.\\E$"}
+{"rule":"IM_I_M","sentence":"^\\QValue of IM - AM measured with SIMS are positive for location-based AR, Co-creation, user-user interaction, and the combination of them.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QNot at all Only a little Somehow changed Changed a lot Completely changed\\E$"}
+{"rule":"IM_I_M","sentence":"^\\QIn addition, among results from Table 5.1, 5.2 and 5.3, although they did not vary much, results by Factor 1 (mean of IM - AM: 1.6406, median of IM - AM: 1.6250) are the lowest, and results by Factor 2 (mean of IM - AM: 1.9667, median of IM - AM: 2.0000) are the highest.\\E$"}
+{"rule":"IM_I_M","sentence":"^\\QAll of them had positive values of either the average or the median of IM - AM, which verifies our hypothesis for the scoring of motivation.\\E$"}
+{"rule":"IM_I_M","sentence":"^\\QNotably, standard deviation of IM - AM by Factor 3 (value: 2.0743) is the highest and the only one higher than 2.0000.\\E$"}
+{"rule":"IM_I_M","sentence":"^\\QLast but not least, in Table 5.4, results by Factor 4 (mean of IM - AM: 2.0156, median of IM - AM: 2.6250) had higher values than those by Factor 1 to 3, indicating that a combination of location-based AR contents, Co-creation and interaction has a better effect on improving motivation.\\E$"}
+{"rule":"IM_I_M","sentence":"^\\QIn Questionnaire 1 we received responses for IM, including 'I become curious about other people's graffities and their comments on my drawings', 'I feel more creative and fun by sharing works with others', 'It is fun to secretly see my friends' drawings', 'Sometimes I felt connected to other students', which we considered are related to interaction with users as well.\\E$"}
+{"rule":"IM_I_M","sentence":"^\\QIn Questionnaire 3 we received responses with obviously opposite attitudes: one states 'I feel like I can make friends with this' for IM and another one answered 'Interaction with user can be done online too in my opinion' for AM.\\E$"}
+{"rule":"IM_I_M","sentence":"^\\QMotivation to access campus influenced by different factors in control experiment (only mean values) lightgray View location- based AR contents Participate in Co-creation User-user interaction Overall experience N 4 3 3 3 IM 3.6875 2.4167 2.7500 3.1667 AM 3.5000 4.4167 3.1667 3.9167 IM - AM 0.1875 -2.0000 -0.4167 -0.7500\\E$"}
